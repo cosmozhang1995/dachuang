@@ -1,0 +1,185 @@
+html,body {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #eeeeee;
+}
+
+.action-bar {
+	position: fixed;
+	background-color: rgb(0,128,255);
+	color: #ffffff;
+	height: 40px;
+	width: 100%;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	box-shadow: 0 0 2px 0 #000;
+}
+.action-bar .title {
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+.action-bar .left-btn {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 30px;
+}
+.left-btn:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+.left-btn:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.left-btn:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.left-btn:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.container {
+	padding-top: 50px;
+}
+.list {
+}
+.list-item {
+	display: block;
+	border-top: 1px #ffffff solid;
+	border-bottom: 1px #666666 solid;
+	min-height: 50px;
+	padding: 5px;
+}
+.list-item:active {
+	text-decoration: none;
+}
+.list-item:link {
+	text-decoration: none;
+}
+.list-item:visited {
+	text-decoration: none;
+}
+.list-item:hover {
+	text-decoration: none;
+}
+.list-item .thumbnail {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.list-item .content {
+	display: block;
+	margin-left: 55px;
+	height: 50px;
+}
+.list-item .full-content {
+	font-size: 30px;
+	font-weight: bolder;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	color: rgb(0,128,255);
+}
+.content .title {
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #000000;
+	font-size: 18px;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+.content .subtitle {
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #999999;
+	font-size: 14px;
+}
+.content .desc {
+	line-height: 1;
+	vertical-align: middle;
+	color: #999999;
+	font-size: 14px;
+}
+
+.view-body {
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.view-body img {
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	min-width: 50%;
+	height: auto;
+}
+.upload {
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.upload .upload-field {
+	display: block;
+}
+.upload input[type="text"],textarea {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px rgba(0,0,0,0.4) solid;
+	/*border: none;*/
+	box-shadow: 0 0 6px -3px #000 inset;
+	background-color: #fff;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.upload label {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+.upload .btn {
+	color: #fff;
+	padding: 5px;
+	font-size: 16px;
+	box-shadow: 0 0 6px -2px #000;
+	text-align: center;
+	background-color: rgb(0,128,255);
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+.upload .prog-bar-container {
+	display: block;
+	height: 13px;
+	border-radius: 3px;
+	overflow: hidden;
+	/*border: 1px #666666 solid;*/
+	box-shadow: 0 0 4px -2px #000 inset;
+	background-color: #fff;
+	font-size: 0px;
+}
+.upload .prog-bar-container .prog-bar {
+	display: inline-block;
+	height: 20px;
+	background-color: rgb(0,128,255);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>素材管理</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="action-bar">
+			<div id="page-title" class="title">
+				素材管理
+			</div>
+			<a id="back-btn" href="#list" class="left-btn" style="display:none;">
+				&lt;
+			</a>
+		</div>
+		<div class="container">
+			<div id="list" class="list">
+				<a class="list-item" href="#upload">
+					<div class="full-content">
+						+
+					</div>
+				</a>
+				<div id="list-body">
+					<a class="list-item" href="javascript:void(0);">
+						<img class="thumbnail" src="img/1.png"/>
+						<div class="content">
+							<div class="title">
+								呵呵
+							</div>
+							<div class="subtitle">
+								呵呵呵呵呵呵呵
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div id="view" class="view" style="display:none;">
+				<div class="view-body">
+					<img id="view-preview" src="img/1.png"/>
+				</div>
+				<div id="view-comment-list" class="list">
+					<a class="list-item">
+						<img class="thumbnail" src="img/1.png"/>
+						<div class="content">
+							<div class="title">
+								呵呵
+							</div>
+							<div class="subtitle">
+								呵呵呵呵呵呵呵
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div id="upload" style="display:none;">
+				<div class="view-body">
+					<img id="upload-preview" src="img/upload.png" onclick="selectUploadFile();"/>
+				</div>
+				<div class="upload">
+					<div class="upload-field">
+						<label>标题</label>
+						<input id="upload-input-title" type="text" placeholder="标题" />
+					</div>
+					<div class="upload-field">
+						<label>描述</label>
+						<textarea id="upload-input-subtitle"></textarea>
+					</div>
+					<input id="upload-file-select" accept="image/*" type="file" hidden="hidden" onchange="onFileChange();" />
+					<div class="upload-field">
+						<div id="prog-bar-container" class="prog-bar-container" style="display:none;">
+							<div id="prog-bar" class="prog-bar"></div>
+						</div>
+					</div>
+					<div class="upload-field">
+						<div id="upload-btn" class="btn" onclick="uploadFile();">
+							上传
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="main.js"></script>
+</html>
