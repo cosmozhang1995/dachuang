@@ -129,7 +129,7 @@ html,body {
 	display: inline-block;
 	width: auto;
 	max-width: 100%;
-	min-width: 50%;
+	/*min-width: 50%;*/
 	height: auto;
 }
 .upload {
